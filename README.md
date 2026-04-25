@@ -33,7 +33,7 @@ Although this is a **game** (not a cryptographic tool), the architecture follows
 ## 📁 Project Structure
 halloween_ultra_catch/
 
-├── main.py # Main game source code (hand tracking + game loop)
+├── Game.py # Main game source code (hand tracking + game loop)
 
 ├── README.md # Project documentation (this file)
 
