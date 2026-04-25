@@ -79,22 +79,14 @@ For detailed mathematical derivations, see [Cryptography & Game Math Notes](#) *
 - `pygame`
 - `numpy`
 
-> Create a `requirements.txt` with:
-> ```
-> opencv-python==4.8.1.78
-> mediapipe==0.10.7
-> pygame==2.5.2
-> numpy==1.24.3
-> ```
-
 ---
 
 ## 🚀 Installation & Run
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/yourusername/halloween-ultra-catch.git
-   cd halloween-ultra-catch
+   git clone https://github.com/AsmaJamshidian/HalloweenUltraCatch-Game.git
+   cd HalloweenUltraCatch-Game
 Install dependencies
 
 bash
