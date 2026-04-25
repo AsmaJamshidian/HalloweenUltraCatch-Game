@@ -1,4 +1,3 @@
-# HalloweenUltraCatch
 # 🎃 Halloween Ultra Catch - 12 Powerups
 
 This project is a **hand-tracking augmented reality game** built with Python, OpenCV, MediaPipe, and Pygame. Players use real‑hand gestures captured via webcam to control a paddle, catch falling pumpkins (balls), avoid ghosts, and collect magical power‑ups in a Halloween‑themed arena.
@@ -33,9 +32,12 @@ Although this is a **game** (not a cryptographic tool), the architecture follows
 
 ## 📁 Project Structure
 halloween_ultra_catch/
-├── main.py # Main game source code (hand tracking + game loop)
-└── README.md # Project documentation (this file)
 
+├── main.py # Main game source code (hand tracking + game loop)
+
+├── README.md # Project documentation (this file)
+
+└── LICENSE # MIT License
 
 text
 
@@ -79,6 +81,7 @@ For detailed mathematical derivations, see [Cryptography & Game Math Notes](#) *
 - `pygame`
 - `numpy`
 
+
 ---
 
 ## 🚀 Installation & Run
@@ -106,21 +109,31 @@ Exit game	Press ESC key
 Open main.py and edit the CONFIG section:
 
 python
+
 WIN_W, WIN_H = 1000, 700      # Window size
+
 PADDLE_W, PADDLE_H = 650, 36  # Base paddle dimensions
+
 BALL_RADIUS = 18              # Pumpkin size
+
 BALL_SPEED_MIN, BALL_SPEED_MAX = 3, 6
+
 FPS = 60
+
 SMOOTHING = 0.25              # Hand movement smoothing factor
+
 📜 License
+
 This project is licensed under the MIT License – see the LICENSE file for details.
 
 👩‍💻 Authors
-Asma – Game mechanics & particle effects
 
-Mooud – Hand tracking integration & power‑up system
+Asma –  https://github.com/AsmaJamshidian/
+
+Mooud – https://github.com/MooudMohammady/
 
 🙌 Acknowledgments
+
 MediaPipe team for real‑time hand landmark detection.
 
 Pygame community for game development framework.
